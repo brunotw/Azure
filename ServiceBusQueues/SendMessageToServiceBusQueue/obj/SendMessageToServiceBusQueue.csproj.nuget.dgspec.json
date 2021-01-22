@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\source\\repos\\Azure\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj": {}
+    "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\source\\repos\\Azure\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj": {
+    "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Azure\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj",
         "projectName": "SendMessageToServiceBusQueue",
-        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Azure\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj",
+        "projectPath": "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Azure\\SendMessageToServiceBusQueue\\SendMessageToServiceBusQueue\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\SendMessageToServiceBusQueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
