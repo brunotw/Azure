@@ -18,20 +18,22 @@ namespace ServiceBusQueues
                 Console.WriteLine("Console started");
                 string queueName = "salesmessages";
 
-                string connectionString = "Endpoint=sb://salesteamappbw.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AgNEnKF7hPBqea58QisyNrgLvlOthO9XG1aTcsletXE=";
+                string connectionString = "Endpoint=sb://salesteamappbw.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=6BbN+0KHbz6n62KhlShCnXQ09PcHemTeY8LCtPY0j+E=";
                 QueueClient queueClient = new QueueClient(connectionString, queueName);
 
                 Client client = new Client
                 {
                     Name = "Bruno Willian",
-                    Age = 29
+                    Age = 29,
+                    CreatedOn = DateTime.Now
+
                 };
 
                 string message = JsonConvert.SerializeObject(client);
                 var encodedMessage = new Message(Encoding.UTF8.GetBytes(message));
                 queueClient.SendAsync(encodedMessage);
 
-                Console.Write("Message successfully sent");
+                Console.WriteLine("Message successfully sent");
             }
             catch (Exception ex)
             {
@@ -54,5 +56,6 @@ namespace ServiceBusQueues
     {
         public string Name { get; set; }
         public int Age { get; set; }
+        public DateTime CreatedOn { get; set; }
     }
 }
