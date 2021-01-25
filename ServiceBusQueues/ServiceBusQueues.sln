@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendMessageToServiceBusQueu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeMessagesFromServiceBusQueue", "ConsumeMessagesFromServiceBusQueue\ConsumeMessagesFromServiceBusQueue.csproj", "{9D5679F4-6531-48BA-BF72-7C74742254FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMessageToServiceBusTopics", "SendMessageToServiceBusTopics\SendMessageToServiceBusTopics.csproj", "{39207E0D-12D9-46F9-981F-993BBCDA57EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendMessageToServiceBusTopics", "SendMessageToServiceBusTopics\SendMessageToServiceBusTopics.csproj", "{39207E0D-12D9-46F9-981F-993BBCDA57EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeMessagesFromServiceBusTopic", "ConsumeMessagesFromServiceBusTopic\ConsumeMessagesFromServiceBusTopic.csproj", "{06A5C42E-56B9-4338-BEBB-759AF1DAFDDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeMessagesFromServiceBusTopic", "ConsumeMessagesFromServiceBusTopic\ConsumeMessagesFromServiceBusTopic.csproj", "{06A5C42E-56B9-4338-BEBB-759AF1DAFDDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageQueueStorage", "ManageQueueStorage\ManageQueueStorage.csproj", "{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{06A5C42E-56B9-4338-BEBB-759AF1DAFDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A5C42E-56B9-4338-BEBB-759AF1DAFDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A5C42E-56B9-4338-BEBB-759AF1DAFDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

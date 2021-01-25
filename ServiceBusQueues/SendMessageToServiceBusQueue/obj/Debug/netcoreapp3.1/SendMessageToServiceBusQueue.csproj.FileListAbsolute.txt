@@ -45,3 +45,4 @@ C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\SendMessageToServiceBusQueue\
 C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\SendMessageToServiceBusQueue\obj\Debug\netcoreapp3.1\SendMessageToServiceBusQueue.dll
 C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\SendMessageToServiceBusQueue\obj\Debug\netcoreapp3.1\SendMessageToServiceBusQueue.pdb
 C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\SendMessageToServiceBusQueue\obj\Debug\netcoreapp3.1\SendMessageToServiceBusQueue.genruntimeconfig.cache
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\SendMessageToServiceBusQueue\obj\Debug\netcoreapp3.1\SendMessageToServiceBusQueue.csprojAssemblyReference.cache

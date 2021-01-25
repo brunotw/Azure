@@ -1,0 +1,16 @@
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\ManageQueueStorage.exe
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\ManageQueueStorage.deps.json
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\ManageQueueStorage.runtimeconfig.json
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\ManageQueueStorage.runtimeconfig.dev.json
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\ManageQueueStorage.dll
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\ManageQueueStorage.pdb
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.csprojAssemblyReference.cache
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.csproj.CopyComplete
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.dll
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.pdb
+C:\Users\Bruno\source\repos\Azure\ServiceBusQueues\ManageQueueStorage\obj\Debug\netcoreapp3.1\ManageQueueStorage.genruntimeconfig.cache
