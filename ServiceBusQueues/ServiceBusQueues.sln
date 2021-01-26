@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendMessageToServiceBusTopi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeMessagesFromServiceBusTopic", "ConsumeMessagesFromServiceBusTopic\ConsumeMessagesFromServiceBusTopic.csproj", "{06A5C42E-56B9-4338-BEBB-759AF1DAFDDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageQueueStorage", "ManageQueueStorage\ManageQueueStorage.csproj", "{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageQueueStorage", "ManageQueueStorage\ManageQueueStorage.csproj", "{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageServiceHub", "ManageServiceHub\ManageServiceHub.csproj", "{BBAC49C4-A929-4741-8C0C-5B807BA206FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7F82D0-0A1F-475F-BD75-3F2FE28C5C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAC49C4-A929-4741-8C0C-5B807BA206FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAC49C4-A929-4741-8C0C-5B807BA206FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAC49C4-A929-4741-8C0C-5B807BA206FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAC49C4-A929-4741-8C0C-5B807BA206FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
