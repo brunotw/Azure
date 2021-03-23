@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using Microsoft.Azure.ServiceBus;
 using Newtonsoft.Json;
@@ -16,20 +17,34 @@ namespace ServiceBusQueues
             try
             {
                 Console.WriteLine("Console started");
-                string queueName = "salesmessages";
+                //string queueName = "salesmessages";
+                //string queueName = "tasksintegration";
+                string queueName = "tasksintegrationpartitioned";
 
-                string connectionString = "Endpoint=sb://salesteamappbw.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=6BbN+0KHbz6n62KhlShCnXQ09PcHemTeY8LCtPY0j+E=";
+                //string connectionString = "Endpoint=sb://salesteamappbw.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=6BbN+0KHbz6n62KhlShCnXQ09PcHemTeY8LCtPY0j+E=";
+                //string connectionString = "Endpoint=sb://accountintegrationnamespace.servicebus.windows.net/;SharedAccessKeyName=key;SharedAccessKey=TpUGZHexNGcD5OBBokj/lA0R+rLtJWpyDWTO4PPMJbE=;";
+                string connectionString = "Endpoint=sb://accountintegrationnamespace.servicebus.windows.net/;SharedAccessKeyName=key;SharedAccessKey=DNN+9943pBBBvXLZAU6uRAtjzHtA2f96CzKnUFY5xxA=;";
+
                 QueueClient queueClient = new QueueClient(connectionString, queueName);
 
-                Client client = new Client
+                List<Client> clients = new List<Client>();
+
+
+                for (int i = 0; i < 1000; i++)
                 {
-                    Name = "Bruno Willian",
-                    Age = 29,
-                    CreatedOn = DateTime.Now
+                    Client client = new Client
+                    {
+                        Name = "3",
+                        Age = 29,
+                        CreatedOn = DateTime.Now
 
-                };
+                    };
 
-                string message = JsonConvert.SerializeObject(client);
+                    clients.Add(client);
+
+                }
+
+                string message = JsonConvert.SerializeObject(clients);
                 var encodedMessage = new Message(Encoding.UTF8.GetBytes(message));
                 queueClient.SendAsync(encodedMessage);
 

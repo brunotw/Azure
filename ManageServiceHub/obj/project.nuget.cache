@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7YZlOMWEfpVTkZq5QKhpncKXwro3El7VqpU3pg7fLb6VSwRbn551N5a7kfl3XBOAvxUZrQcKcchAeuKcnir8OQ==",
+  "dgSpecHash": "IiIqEjG3I+exNggRrO1ebB9F1rk37XNOyDJ6LRxttl8thqROUZrta/l3M5M3QGNJA9/zINwLSoTKkNd0Hla5AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\ManageServiceBus\\ManageServiceHub.csproj",
+  "projectFilePath": "C:\\Users\\Bruno\\source\\repos\\Azure\\ManageServiceHub\\ManageServiceHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.messaging.eventhubs\\5.2.0\\azure.messaging.eventhubs.5.2.0.nupkg.sha512",
