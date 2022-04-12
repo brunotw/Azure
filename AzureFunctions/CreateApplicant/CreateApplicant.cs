@@ -7,7 +7,6 @@ using Microsoft.PowerPlatform.Dataverse.Client;
 using Microsoft.Xrm.Sdk;
 using Newtonsoft.Json;
 using System;
-using System.Configuration;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -27,15 +26,25 @@ namespace CreateApplicant
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             Applicant applicant = JsonConvert.DeserializeObject<Applicant>(requestBody);
 
-            Entity applicantDataverse = new Entity("new_applicant");
-            applicantDataverse["new_name"] = applicant.name;
-            applicantDataverse["new_email"] = applicant.email;
-            Guid applicantId = serviceClient.Create(applicantDataverse);
+            for (int i = 0; i < 100; i++)
+            {
+                Entity applicantDataverse = new Entity("new_applicant");
+                applicantDataverse["new_name"] = $"Test {i}";
+                Guid applicantId = serviceClient.Create(applicantDataverse);
+                log.LogInformation($"Applicant {i} of 100 with id {applicantId} created");
+            }
 
-            string response = $"3. A new Applicant has been created with ID: { applicantId}";
+            return new OkObjectResult("ok");
 
-            log.LogInformation(response);
-            return new OkObjectResult(response);
+            //Entity applicantDataverse = new Entity("new_applicant");
+            //applicantDataverse["new_name"] = applicant.name;
+            //applicantDataverse["new_email"] = applicant.email;
+            //Guid applicantId = serviceClient.Create(applicantDataverse);
+
+            //string response = $"3. A new Applicant has been created with ID: { applicantId}";
+
+            //log.LogInformation(response);
+            //return new OkObjectResult(applicantId);
         }
 
         public static string GetConnectionString()

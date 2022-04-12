@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2F4QH6hqLq7t2MMNnFkyYsbgvkKBaZL7Uq9kzyZaHUTKYhjZxd5nf7kEPoQLSIOg+dU6WjhUETKxKrLhQ/h85Q==",
+  "dgSpecHash": "1dR5w6YQ3rcYS63GaE7DDuHqKZnVoClCrlCW/5f6O2FN6h0AeP3igl9w0XSOcLoKVyvzy09SPTHSBxJ7YxGgAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruno\\source\\repos\\Azure\\ServiceBusQueues\\ManageServiceHub\\ManageServiceHub.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.security.cryptography\\4.0.0\\runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
